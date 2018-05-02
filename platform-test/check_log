@@ -1,0 +1,137 @@
+--------------types size check--------------
+sizeof char 1
+sizeof short 2
+sizeof int 4
+sizeof long 8
+sizeof long long 8
+sizeof pointer 8
+sizeof size_t 8
+-------------mem_pool size/offset-------------
+sizeof req_t 40
+sizeof mem_pool 152
+address of req_pool 0x22ab020
+address of req_pool list new 0x22ab020
+address of req_pool list prev  0x22ab028
+address of req_pool hot_count 0x22ab030
+address of req_pool lock 0x22ab034
+address of req_pool paddedsize 0x22ab060
+address of req_pool pool_begin 0x22ab068
+address of req_pool pool_end 0x22ab070
+address of req_pool realsize 0x22ab078
+address of req_pool alloc_count 0x22ab080
+address of req_pool pool_miss 0x22ab088
+address of req_pool max_alloc 0x22ab090
+address of req_pool cur_stdalloc 0x22ab094
+address of req_pool max_stdalloc 0x22ab098
+address of req_pool name 0x22ab0a0
+address of req_pool global_list 0x22ab0a8
+-------------mem_pool object size/offset-------------
+address of chunk[0] 0x7f661dc41010 0x7f661dc41010
+address of chunk head 0x7f661dc41010
+address of chunk mem_pool* 0x7f661dc41020
+address of chunk in_use 0x7f661dc41028
+address of chunk data ptr 0x7f661dc4102c
+address of req_pool2 0x22ab0c0
+address of req_pool2 begin 0x22ab160 end 0x22ab1a4
+address of req_pool3 0x22ab1b0
+monitor at 2018-04-16 20:18:50
+mempool list next 0x7f661dc43144, prev 0x7f661dc84fcc
+mempool hot_count 1437
+mempool cold_count 2659
+mempool alloc_count 1600
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:18:52
+mempool list next 0x7f661dc46950, prev 0x7f661dc84fcc
+mempool hot_count 1245
+mempool cold_count 2851
+mempool alloc_count 1600
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:18:54
+mempool list next 0x7f661dc46664, prev 0x7f661dc84fcc
+mempool hot_count 1123
+mempool cold_count 2973
+mempool alloc_count 1600
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:18:56
+mempool list next 0x7f661dc4ab30, prev 0x7f661dc84fcc
+mempool hot_count 988
+mempool cold_count 3108
+mempool alloc_count 1600
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:18:58
+mempool list next 0x7f661dc4c208, prev 0x7f661dc84fcc
+mempool hot_count 851
+mempool cold_count 3245
+mempool alloc_count 1600
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:00
+mempool list next 0x7f661dc5152c, prev 0x7f661dc84fcc
+mempool hot_count 701
+mempool cold_count 3395
+mempool alloc_count 1600
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:02
+mempool list next 0x7f661dc581d0, prev 0x7f661dc84fcc
+mempool hot_count 566
+mempool cold_count 3530
+mempool alloc_count 1600
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:04
+mempool list next 0x7f661dc599fc, prev 0x7f661dc84fcc
+mempool hot_count 436
+mempool cold_count 3660
+mempool alloc_count 1600
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:06
+mempool list next 0x7f661dc5185c, prev 0x7f661dc84fcc
+mempool hot_count 524
+mempool cold_count 3572
+mempool alloc_count 1800
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:08
+mempool list next 0x7f661dc55b08, prev 0x7f661dc84fcc
+mempool hot_count 768
+mempool cold_count 3328
+mempool alloc_count 2200
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:10
+mempool list next 0x7f661dc5ac50, prev 0x7f661dc84fcc
+mempool hot_count 640
+mempool cold_count 3456
+mempool alloc_count 2200
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:12
+mempool list next 0x7f661dc59df8, prev 0x7f661dc84fcc
+mempool hot_count 896
+mempool cold_count 3200
+mempool alloc_count 2600
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:14
+mempool list next 0x7f661dc52f34, prev 0x7f661dc84fcc
+mempool hot_count 1054
+mempool cold_count 3042
+mempool alloc_count 2900
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:16
+mempool list next 0x7f661dc5a1b0, prev 0x7f661dc84fcc
+mempool hot_count 1116
+mempool cold_count 2980
+mempool alloc_count 3100
+mempool max_alloc 1587
+-----------------
+monitor at 2018-04-16 20:19:18
+mempool list next 0x7f661dc4f7f4, prev 0x7f661dc84fcc
+mempoo
